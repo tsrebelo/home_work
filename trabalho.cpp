@@ -28,8 +28,17 @@ int area;
     area = PI * r * r;
     cout << "A área do circulo é: " << area << endl;
 
-//Parte 2
-
-
     return 0;
+}
+
+//Parte 2
+//Arrays unidimensional
+float notas[5] = {1 ,2 ,3 ,4 ,5};
+
+int main(){
+
+    for(int i = 0; i < 5; i++){
+        cout << notas[i] << " ";
+    }
+
 }
