@@ -7,7 +7,8 @@
  * 
 */
 
-#include <init.h>
+#include <iostream>
+using namespace std;
 
 //Ciclo for - Tabuada
 int n;
