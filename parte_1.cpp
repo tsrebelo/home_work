@@ -1,3 +1,12 @@
+/**
+ *
+ * @file parte_1.cpp
+ * @author Telma Rebelo
+ * @brief Parte 1 - Calculadora básica e Constantes
+ * @date 24-02-18
+ * 
+*/
+
 #include <iostream>
 using namespace std;
 
