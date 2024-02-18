@@ -43,7 +43,6 @@ cout << endl;
     
     
 int arr[10] = {59, 31, 49, 51, 28, 72, 89, 52, 63, 24};
-
     cout << "Os números são: " << endl;
     
     for(int w = 0; w < 10; w++){
