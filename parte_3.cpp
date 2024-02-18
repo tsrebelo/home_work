@@ -2,7 +2,7 @@
  *
  * @file parte_3.cpp
  * @author Telma Rebelo
- * @brief Parte 3 - Tabuada
+ * @brief Parte 3 - Ciclo for (Tabuada)
  * @date 24-02-18
  * 
 */
