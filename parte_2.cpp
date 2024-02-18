@@ -16,14 +16,19 @@ int main(){
 
 //Média das notas
     cout << "Introduza as notas dos alunos." << endl;
+    
     cout << "Aluno 1: ";
     cin >> notas[0];
+    
     cout << "Aluno 2: ";
     cin >> notas[1];
+    
     cout << "Aluno 3: ";
     cin >> notas[2];
+    
     cout << "Aluno 4: ";
     cin >> notas[3];
+    
     cout << "Aluno 5: ";
     cin >> notas[4];
 
@@ -58,7 +63,6 @@ int arr[10] = {59, 31, 49, 51, 28, 72, 89, 52, 63, 24};
     for(int z = 0; z < 10; z++){
         cout << arr[z] << " ";
     }
-cout << endl;
 
 int maiorArr = arr[0];
     for(int a = 0; a < 10; a++){
