@@ -1,3 +1,12 @@
+/**
+ *
+ * @file parte_2.cpp
+ * @author Telma Rebelo
+ * @brief Parte 2 - Arrays
+ * @date 24-02-18
+ * 
+*/
+
 #include <iostream>
 using namespace std;
 
