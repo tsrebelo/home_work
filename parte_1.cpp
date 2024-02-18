@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-//Parte 1
 int a;
 int b;
 const double PI = 3.14159;
