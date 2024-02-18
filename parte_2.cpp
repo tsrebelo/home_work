@@ -7,8 +7,7 @@
  * 
 */
 
-#include <iostream>
-using namespace std;
+#include <init.h>
 
 float notas[5];
 
