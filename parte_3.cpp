@@ -1,3 +1,12 @@
+/**
+ *
+ * @file parte_3.cpp
+ * @author Telma Rebelo
+ * @brief Parte 3 - Tabuada
+ * @date 24-02-18
+ * 
+*/
+
 #include <iostream>
 using namespace std;
 
