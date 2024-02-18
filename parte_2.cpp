@@ -20,22 +20,22 @@ int main(){
 cout << endl;
 
 float mediaNotas = (notas[0] + notas[1] + notas[2] + notas[3] + notas[4]) / 5;
-    for(int x = 0; x < 1; x++){
+    for(int w = 0; w < 1; w++){
         cout << "A média das notas é " << mediaNotas << "." << endl;
     }
 
 float maiorNota = notas[0];
-    for(int y = 0; y < 5; y++){
-        if(notas[y] > maiorNota){
-            maiorNota = notas[y];
+    for(int x = 0; x < 5; x++){
+        if(notas[x] > maiorNota){
+            maiorNota = notas[x];
         }
     }
     cout << "A maior nota é " << maiorNota << "." << endl;
     
 float menorNota = notas[0];
-    for(int z = 0; z < 5; z++){
-        if(notas[z] < menorNota){
-            menorNota = notas[z];
+    for(int y = 0; y < 5; y++){
+        if(notas[y] < menorNota){
+            menorNota = notas[y];
         }
     }
     cout << "A menor nota é " << menorNota << "." << endl;
@@ -45,8 +45,8 @@ cout << endl;
 int arr[10] = {59, 31, 49, 51, 28, 72, 89, 52, 63, 24};
     cout << "Os números são: " << endl;
     
-    for(int w = 0; w < 10; w++){
-        cout << arr[w] << " ";
+    for(int z = 0; z < 10; z++){
+        cout << arr[z] << " ";
     }
 cout << endl;
 
