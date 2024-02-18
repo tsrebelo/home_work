@@ -31,9 +31,13 @@ int main(){
     cout << "A divisão: " << a / b << endl;
     cout << "O resto da divisão: " << a % b << endl;
 
+cout << endl;
+
 //Constantes
+    cout << "Vamos calcular a área do circulo!" << endl;
     cout << "Defina o valor de 'r': ";
     cin >> r;
+    
     area = PI * r * r;
     cout << "A área do circulo é: " << area << endl;
   
