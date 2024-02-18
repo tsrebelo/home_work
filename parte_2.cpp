@@ -4,7 +4,8 @@ using namespace std;
 float notas[5];
 
 int main(){
-   
+
+//Média das notas
     cout << "Introduza as notas dos alunos." << endl;
     cout << "Aluno 1: ";
     cin >> notas[0];
@@ -41,7 +42,7 @@ float menorNota = notas[0];
     cout << "A menor nota é " << menorNota << "." << endl;
 cout << endl;
     
-    
+//Array[10]
 int arr[10] = {59, 31, 49, 51, 28, 72, 89, 52, 63, 24};
     cout << "Os números são: " << endl;
     
