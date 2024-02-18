@@ -1,28 +1,34 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-
-int a;
-int b;
-const double PI = 3.14159;
-int r;
-int area;
-
 //Parte 1
 //Calculadora básica
+int a;
+int b;
+
+int main(){
+
     cout << "Introduza o primeiro valor: ";
     cin >> a;
+    
     cout << "Introduza o segundo valor: ";
     cin >> b;
-
+    
     cout << "A soma: " << a + b << endl;
     cout << "A diferença: " << a - b << endl;
     cout << "O produto: " << a * b << endl;
     cout << "A divisão: " << a / b << endl;
     cout << "O resto da divisão: " << a % b << endl;
 
+    return 0;
+}
+
 //Constantes
+const double PI = 3.14159;
+int r;
+int area;
+
+int main(){
     cout << "Defina o valor de 'r': ";
     cin >> r;
     area = PI * r * r;
@@ -41,4 +47,21 @@ int main(){
         cout << notas[i] << " ";
     }
 
+}
+
+//Parte 3
+//Ciclo for - Tabuada
+int n;
+
+int main(){
+    
+    cout << "Esta é uma tabuada digital." << endl;
+    cout << "Escolha um número entre 0 e 10: ";
+    cin >> n;
+    
+    for(int i = 0; i <= 10; i++){
+        cout << n << "x" << i << "=" << n * i << endl;
+    }
+    
+    return 0;
 }
