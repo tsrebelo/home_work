@@ -17,9 +17,12 @@ int main(){
     cout << "Aluno 5: ";
     cin >> notas[4];
 
+cout << endl;
+
 float mediaNotas = (notas[0] + notas[1] + notas[2] + notas[3] + notas[4]) / 5;
+
     for(int x = 0; x < 1; x++){
-        cout << "A média das notas é " << mediaNotas << endl;
+        cout << "A média das notas é " << mediaNotas << "." << endl;
     }
 
 float maiorNota = notas[0];
@@ -28,7 +31,7 @@ float maiorNota = notas[0];
             maiorNota = notas[y];
         }
     }
-    cout << "A maior nota é " << maiorNota << endl;
+    cout << "A maior nota é " << maiorNota << "." << endl;
     
 float menorNota = notas[0];
     for(int z = 0; z < 5; z++){
@@ -36,24 +39,34 @@ float menorNota = notas[0];
             menorNota = notas[z];
         }
     }
-    cout << "A menor nota é " << menorNota << endl;
+    cout << "A menor nota é " << menorNota << "." << endl;
+cout << endl;
     
     
-    
-int arr[10] = {59, 31, 49, 51, 23, 72, 89, 52, 64, 24};
+int arr[10] = {59, 31, 49, 51, 28, 72, 89, 52, 63, 24};
 
+    cout << "Os números são: " << endl;
+    
     for(int w = 0; w < 10; w++){
-        cout << arr[0] << endl;
+        cout << arr[w] << " ";
     }
+cout << endl;
 
 int maiorArr = arr[0];
-    for(int a = 0; a < 5; a++){
-        if(arr[a] < maiorArr){
+    for(int a = 0; a < 10; a++){
+        if(arr[a] > maiorArr){
             maiorArr = arr[a];
         }
     }
-    cout << "O maior número é " << menorNota << endl;
+    cout << "O maior número é " << maiorArr << "." << endl;
     
+int menorArr = arr[0];
+    for(int b = 0; b < 10; b++){
+        if(arr[b] < menorArr){
+            menorArr = arr[b];
+        }
+    }
+    cout << "O menor número é " << menorArr << "." << endl;
     
     
     return 0;
