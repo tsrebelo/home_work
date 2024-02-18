@@ -66,6 +66,5 @@ int menorArr = arr[0];
     }
     cout << "O menor número é " << menorArr << "." << endl;
     
-    
     return 0;
 }
