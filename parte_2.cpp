@@ -20,7 +20,6 @@ int main(){
 cout << endl;
 
 float mediaNotas = (notas[0] + notas[1] + notas[2] + notas[3] + notas[4]) / 5;
-
     for(int x = 0; x < 1; x++){
         cout << "A média das notas é " << mediaNotas << "." << endl;
     }
