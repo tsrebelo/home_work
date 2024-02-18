@@ -7,7 +7,8 @@
  * 
 */
 
-#include <init.h>
+#include <iostream>
+using namespace std;
 
 int a;
 int b;
