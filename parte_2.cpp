@@ -45,6 +45,7 @@ float menorNota = notas[0];
     cout << "A menor nota é " << menorNota << "." << endl;
 cout << endl;
     
+
 //Array[10]
 int arr[10] = {59, 31, 49, 51, 28, 72, 89, 52, 63, 24};
     cout << "Os números são: " << endl;
