@@ -64,6 +64,7 @@ int arr[10] = {59, 31, 49, 51, 28, 72, 89, 52, 63, 24};
         cout << arr[z] << " ";
     }
 cout << endl;
+cout << endl;
 
 int maiorArr = arr[0];
     for(int a = 0; a < 10; a++){
