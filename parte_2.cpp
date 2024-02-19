@@ -14,25 +14,13 @@ float notas[5];
 
 int main(){
 
-//Média das notas
-    cout << "Introduza as notas dos alunos." << endl;
-    
-    cout << "Aluno 1: ";
-    cin >> notas[0];
-    
-    cout << "Aluno 2: ";
-    cin >> notas[1];
-    
-    cout << "Aluno 3: ";
-    cin >> notas[2];
-    
-    cout << "Aluno 4: ";
-    cin >> notas[3];
-    
-    cout << "Aluno 5: ";
-    cin >> notas[4];
-
+    cout << "Introduza as notas." << endl;
+    for(int v = 0; v < 5; v++){
+        cout << "NOTA: ";
+        cin >> notas[v];
+    }
 cout << endl;
+
 
 float mediaNotas = (notas[0] + notas[1] + notas[2] + notas[3] + notas[4]) / 5;
     for(int w = 0; w < 1; w++){
