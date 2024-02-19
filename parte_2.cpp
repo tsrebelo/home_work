@@ -11,6 +11,8 @@
 using namespace std;
 
 float notas[5];
+float soma = 0;
+float media = 0;
 
 int main(){
 
@@ -22,11 +24,18 @@ int main(){
 cout << endl;
 
 
+    for(int t = 0; t < 5; t++){
+        soma += notas[t];
+        media = soma;
+    }
+
+
+/*
 float mediaNotas = (notas[0] + notas[1] + notas[2] + notas[3] + notas[4]) / 5;
     for(int w = 0; w < 1; w++){
         cout << "A média das notas é " << mediaNotas << "." << endl;
     }
-
+*/
 float maiorNota = notas[0];
     for(int x = 0; x < 5; x++){
         if(notas[x] > maiorNota){
