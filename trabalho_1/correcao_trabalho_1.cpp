@@ -3,7 +3,8 @@ using namespace std;
 
 long a,b;
 const double PI = 3.14159265358979323846;
-int myArray[5];
+int myArr[5];
+float r;
 
 int main(){
 
@@ -25,6 +26,9 @@ int main(){
 
 
 //CÁLCULO DA ÁREA
+    cout << "Digite o valor do raio: ";
+    cin >> r;
+    cout << "A área do círculo é ≃ " << PI*r*r << endl;
 
     return 0;
 }
