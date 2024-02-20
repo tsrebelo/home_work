@@ -34,6 +34,7 @@ int main(){
 */
 
 //Arrays
+int soma=0;
 
 cout << "Digite o valor das notas.\n" << endl;
     for(int i=0; i<5; i++){
@@ -41,7 +42,6 @@ cout << "Digite o valor das notas.\n" << endl;
         cin >> myArr[i];
     }
 cout << endl;
-
 
 /*
 cout << "Digite o valor das notas.\n" << endl;
