@@ -4,7 +4,7 @@ using namespace std;
 long a,b;
 const double PI = 3.14159265358979323846;
 int myArr[5];
-float r;
+int r;
 
 int main(){
 
@@ -34,19 +34,35 @@ int main(){
 */
 
 //Arrays
-int soma=0;
+float soma=0;
+float maior=0;
+float menor=0;
 
-cout << "Digite o valor das notas.\n" << endl;
+cout << "Digite as notas dos alunos.\n" << endl;
     for(int i=0; i<5; i++){
-        cout << "O valor da nota " << i << " é: ";
+        cout << "A nota do aluno " << i << " é: ";
         cin >> myArr[i];
+        soma += myArr[i];
+    }if(i==0){
+        maior = myArr[i];
+        menor = myArr[i];
+    } else {
+        if(myArr[i] > maior){
+            maior = myArr[i];
+        }
+        if(myArr[i] < menor){
+            menor = myArr[i];
+        }
     }
 cout << endl;
 
+cout << "A soma das notas é: " << soma << endl;
+
+
 /*
-cout << "Digite o valor das notas.\n" << endl;
+cout << "Digite as notas dos alunos.\n" << endl;
     for(int i=0; i<5; i++){
-        cout << "O valor da nota " << i << " é: ";
+        cout << "A nota do aluno " << i << " é: ";
         cin >> myArr[i];
     }
 cout << endl;
