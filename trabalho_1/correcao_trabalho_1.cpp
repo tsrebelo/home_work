@@ -34,10 +34,19 @@ int main(){
 */
 
 //Arrays
-/*
-cout << "Digite o valor dos elementos.\n" << endl;
+
+cout << "Digite o valor das notas.\n" << endl;
     for(int i=0; i<5; i++){
-        cout << "O valor do elemento " << i << " é: ";
+        cout << "O valor da nota " << i << " é: ";
+        cin >> myArr[i];
+    }
+cout << endl;
+
+
+/*
+cout << "Digite o valor das notas.\n" << endl;
+    for(int i=0; i<5; i++){
+        cout << "O valor da nota " << i << " é: ";
         cin >> myArr[i];
     }
 cout << endl;
