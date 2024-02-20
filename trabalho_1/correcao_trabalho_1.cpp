@@ -9,6 +9,7 @@ float r;
 int main(){
 
 //CALCULADORA
+/*
     cout << "Digite o valor de a: ";
     cin >> a;
     cout << "Digite o valor de b: ";
@@ -23,12 +24,24 @@ int main(){
         cout << "Não é possível dividir por zero!" << endl;
         cout << "O resto da divisão de a e b é: " << a%b << endl;
     }
-
+*/
 
 //CÁLCULO DA ÁREA
+/*
     cout << "Digite o valor do raio: ";
     cin >> r;
     cout << "A área do círculo é ≃ " << PI*r*r << endl;
+*/
+
+//Arrays
+/*
+cout << "Digite o valor dos elementos.\n" << endl;
+    for(int i=0; i<5; i++){
+        cout << "O valor do elemento " << i << " é: ";
+        cin >> myArr[i];
+    }
+cout << endl;
+*/
 
     return 0;
 }
