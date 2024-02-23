@@ -122,13 +122,13 @@ void menu(){
     int opcao;
     switch(opcao){
         case 1:
-        cout << "1 - Calculo" << endl;
+        parte1();
             break;
         case 2:
-        cout << "2 - Notas" << endl;
+        parte2();
             break;
         case 3:
-        cout << "3 - Tabuada" << endl;
+        parte3();
             break;
         default:
             break;
