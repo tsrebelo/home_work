@@ -113,12 +113,6 @@ int n;
 
 void menu(){
 
-    system("clear");
-
-    cout << "===================" << endl;
-    cout << "       MENU" << endl;
-    cout << "===================" << endl;
-
     int opcao;
     switch(opcao){
         case 1:
@@ -133,6 +127,16 @@ void menu(){
         default:
             break;
     }
+
+    system("clear");
+    cout << "===================" << endl;
+    cout << "       MENU" << endl;
+    cout << "===================" << endl;
+    cout << "1 - Calculadora" << endl;
+    cout << "2 - Arrays" << endl;
+    cout << "3 - Tabuada" << endl;
+    cout << "===================" << endl;
+
 }
 
 int main(){
