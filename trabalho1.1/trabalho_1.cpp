@@ -115,13 +115,14 @@ void menu(){
 
     system("clear");
     int opcao;
-    cout << "===================" << endl;
-    cout << "       MENU" << endl;
-    cout << "===================" << endl;
+    cout << "=====================" << endl;
+    cout << "         MENU" << endl;
+    cout << "=====================" << endl;
     cout << "1 - Calculadora" << endl;
     cout << "2 - Arrays" << endl;
     cout << "3 - Tabuada" << endl;
-    cout << "===================" << endl;
+    cout << "=====================" << endl;
+    cout << "Insira a sua opção: ";
     cin >> opcao;
     switch(opcao){
         case 1:
@@ -141,6 +142,6 @@ void menu(){
 int main(){
 
     menu();
-    system("clear");
+
     return 0;
 }
