@@ -113,7 +113,16 @@ int n;
 
 void menu(){
 
+    system("clear");
     int opcao;
+    cout << "===================" << endl;
+    cout << "       MENU" << endl;
+    cout << "===================" << endl;
+    cout << "1 - Calculadora" << endl;
+    cout << "2 - Arrays" << endl;
+    cout << "3 - Tabuada" << endl;
+    cout << "===================" << endl;
+    cin >> opcao;
     switch(opcao){
         case 1:
         parte1();
@@ -127,21 +136,11 @@ void menu(){
         default:
             break;
     }
-
-    system("clear");
-    cout << "===================" << endl;
-    cout << "       MENU" << endl;
-    cout << "===================" << endl;
-    cout << "1 - Calculadora" << endl;
-    cout << "2 - Arrays" << endl;
-    cout << "3 - Tabuada" << endl;
-    cout << "===================" << endl;
-
 }
 
 int main(){
 
     menu();
-
+    system("clear");
     return 0;
 }
